@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+}
+
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background: #111;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+
+.main {
+    flex: 1;
+    text-align: center;
+    padding: 50px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: gray;
+}

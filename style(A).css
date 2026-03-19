@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #121212;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+}
+
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background: #1a1a1a;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    color: white;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+
+.main {
+    flex: 1;
+    text-align: center;
+    padding: 50px;
+}
+
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+.stopwatch {
+    font-size: 50px;
+    color: white;
+    margin: 20px 0;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #1f1f1f;
+    color: white;
+    border: 1px solid #333;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+input, select {
+    padding: 8px;
+    background-color: #1f1f1f;
+    color: white;
+    border: 1px solid #333;
+    margin: 5px;
+}
+
+
+.footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: gray;
+}

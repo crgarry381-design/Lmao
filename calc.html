@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>RailSpeedZ - Hitung</title>
+    <link rel="stylesheet" href="style(A).css">
+</head>
+<body>
+
+
+<nav>
+    <a href="index(C).html">Kembali</a> |
+    <a href="note.html">Catatan</a>
+</nav>
+
+<hr>
+<div class="card">
+    <h3>Cara Penggunaan</h3>
+    <ul>
+        <li>Pilih titik patokan (misalnya tiang atau rambu)</li>
+        <li>Tekan <b>START</b> saat kepala kereta lewat patokan</li>
+        <li>Tekan <b>STOP</b> saat ekor kereta lewat patokan</li>
+        <li>Jika sudah menekan <b>STOP</b> tekan <b>START</b> untuk menghitung kecepatan kereta lainnya</li>
+    </ul>
+</div>
+<h1>Lama kereta melintas(Detik) </h1>
+
+
+<div class="stopwatch">
+    <span id="timer">00.00</span>
+</div>
+
+<button onclick="startTimer()">START</button>
+<button onclick="stopTimer()">STOP</button>
+
+<hr>
+
+
+<label>Jumlah Lokomotif:</label><br>
+<input type="number" id="loko"><br><br>
+<p>Jika jumlah lokomotif tidak diisi, perhitungan hanya berdasarkan gerbong</p>
+
+<label>Jenis Lokomotif:</label><br>
+<select id="jenisLoko">
+    <option value="0">Tidak ada</option>
+    <option value="15">CC201</option>
+    <option value="15">CC203</option>
+    <option value="15">CC204</option>
+    <option value="15">CC206</option>
+</select><br><br>
+
+<label>Jumlah Gerbong:</label><br>
+<input type="number" id="gerbong"><br><br>
+
+<label>Panjang 1 Gerbong (Meter):</label><br>
+<input type="number" id="panjang"><br><br>
+ <p>Isian panjang 1 gerbong adalah opsional dan tidak wajib</p>
+
+<button onclick="hitung()">Hitung Kecepatan</button>
+
+<h2 id="hasil"></h2>
+
+<script src="script.js"></script>
+     <p>Hasil perhitungan tidak selalu 100% akurat</p>
+       <p>© 2026 ZanWork</p>
+</body>
+</html>

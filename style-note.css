@@ -1,0 +1,46 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.back-link {
+    color: white;
+    text-decoration: underline;
+    display: block;
+    margin: 15px 0;
+}
+
+.note-list {
+    margin: 20px 0;
+    min-height: 100px;
+}
+
+#newNoteBtn {
+    padding: 15px 30px;
+    font-size: 24px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#newNoteBtn:hover {
+    background-color: #121212;
+}
